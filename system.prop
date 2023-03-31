@@ -63,6 +63,9 @@ pm.dexopt.shared=speed
 # Filesystem
 fs_mgr.overlayfs.prefer_cache_backing_storage=true
 
+# Display
+debug.cpurend.vsync=false
+
 # Graphics
 ro.opengles.version=196610
 
