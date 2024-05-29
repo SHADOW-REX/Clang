@@ -17,6 +17,11 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
     $(LOCAL_PATH)
 
+# Google
+PRODUCT_PACKAGES += \
+    Velvet \
+    LatinIMEGooglePrebuilt
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0.vendor \
