@@ -20,6 +20,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit some extras stuff
 $(call inherit-product-if-exists, vendor/extras/extras.mk)
+$(call inherit-product-if-exists, vendor/MiuiCameraLeica/config.mk)
 
 # disable/enable blur support
 TARGET_ENABLE_BLUR := true
