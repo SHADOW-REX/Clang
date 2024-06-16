@@ -130,6 +130,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     disable_configstore
 
+PRODUCT_PACKAGES += \
+    libshim_ui
+
 # Dolby
 PRODUCT_PACKAGES += \
     XiaomiDolby
