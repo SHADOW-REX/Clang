@@ -94,9 +94,6 @@ ro.crypto.volume.options=::v2
 
 # Dalvik
 dalvik.vm.dexopt.secondary=true
-dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
-dalvik.vm.dex2oat64.enabled=true
-dalvik.vm.dex2oat-threads=6
 dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.mtk-stack-trace-file=/data/anr/mtk_traces.txt
 
@@ -107,10 +104,7 @@ ro.vendor.mtk_ufs_support=1
 
 # Dex
 persist.bg.dexopt.enable=true
-pm.dexopt.install=speed-profile
-pm.dexopt.bg-dexopt=speed-profile
-pm.dexopt.boot=verify
-pm.dexopt.first-boot=quicken
+pm.dexopt.boot=speed-profile
 
 # DRM
 drm.service.enabled=true
