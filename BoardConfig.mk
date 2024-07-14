@@ -56,7 +56,7 @@ BOARD_BOOTIMG_HEADER_VERSION := 2
 TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6785
 TARGET_KERNEL_CONFIG := begonia_user_defconfig
 # TARGET_KERNEL_CLANG_VERSION := neutron
-# TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := LLVM=1 LLVM_IAS=1 AS=llvm-as AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
@@ -138,7 +138,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
     $(DEVICE_PATH)/framework_compatibility_matrix.xml \
-    vendor/lineage/config/device_framework_matrix.xml
+    vendor/droidx/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 ODM_MANIFEST_SKUS += \
     begonia

@@ -116,3 +116,7 @@ wifi.tethering.interface=ap0
 
 # Zygote
 ro.zygote.preload.enable=1
+
+# DroidX Maintainer
+ro.droidx.maintainer=SHADOW
+ro.droidx.chipset="Mediatek Helios G90T"

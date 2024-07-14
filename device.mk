@@ -17,10 +17,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
     $(LOCAL_PATH)
 
-# Google
-PRODUCT_PACKAGES += \
-    LatinIMEGooglePrebuilt
-
 # Audio
 TARGET_EXCLUDES_AUDIOFX := true
 
