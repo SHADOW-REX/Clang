@@ -19,7 +19,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Google
 PRODUCT_PACKAGES += \
-    Velvet \
     LatinIMEGooglePrebuilt
 
 # Audio
