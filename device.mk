@@ -112,6 +112,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.background-dex2oat-threads=4 \
     dalvik.vm.background-dex2oat-cpu-set=0,1,2,3,4,5,6,7,8
 
+# Debloat
+PRODUCT_PACKAGES += \
+    Debloat
+
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
