@@ -51,8 +51,7 @@ PRODUCT_PACKAGES += \
     libtinycompress \
     libaudiofoundation \
     libaudiofoundation.vendor \
-    libstagefright_softomx_plugin.vendor \
-    libldacBT_bco
+    libstagefright_softomx_plugin.vendor
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
